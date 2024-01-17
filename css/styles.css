@@ -244,6 +244,26 @@ footer{
     margin-bottom: 0;
 }
 /* Starts Responsive */
+@media (1325px >= width){
+    .gaming, .office{
+        flex-direction: column;
+    }
+    .img-gaming, .img-office{
+        width: 70vw;
+    }
+    .text-gaming, .text-office{
+        width: 65vw;
+    }
+    .information{
+        display: none;
+    }
+    .maps{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media (1122px >= width){
     .main-services{
         flex-direction: column;
