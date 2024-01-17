@@ -216,23 +216,32 @@ aside{
 .wsp{
     position: fixed;
     right: 3%;
-    bottom: 3%;
+    bottom: 4%;
 }
 /* Footer */
 footer{
     padding: 20px;
     background-color: #878787;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
     footer p{
         font-size: 0.9em;
         color:#202022;
         font-weight: bold;
+        margin-bottom: 0;
     }
 .social-networks img{
-    width: 10%;
+    width: 30px;
+}
+.social-networks ul{
+    list-style: none;
+    display: flex;
+    gap: 2%;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 /* Starts Responsive */
 @media (1122px >= width){
@@ -243,4 +252,9 @@ footer{
         .main-services figure{
             width: 60%;
         }
+}
+@media (720px >= width){
+    .wsp{
+        bottom: 10%;
+    }
 }
