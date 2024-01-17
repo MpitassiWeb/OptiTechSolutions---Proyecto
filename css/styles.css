@@ -5,7 +5,6 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
 /* Background */
 .bg{
     background-color: #CACACA;
@@ -244,6 +243,7 @@ footer{
     margin-bottom: 0;
 }
 /* Starts Responsive */
+/* 1325 Brekpoint */
 @media (1325px >= width){
     .gaming, .office{
         flex-direction: column;
@@ -274,6 +274,7 @@ footer{
     }
 
 }
+/* 1122 Brekpoint */
 @media (1122px >= width){
     .banner{
         width: 85%;
@@ -298,6 +299,7 @@ footer{
         width: 80vw;
     }
 }
+/* 720 Brekpoint */
 @media (720px >= width){
     .wsp{
         bottom: 10%;
@@ -306,6 +308,7 @@ footer{
         height: 300px;
     }
 }
+/* 590 Brekpoint */
 @media (590px >= width){
     .banner{
         width: 90%;
