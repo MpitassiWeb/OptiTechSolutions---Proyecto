@@ -6,14 +6,14 @@
     <title>OptiTech Solutions - Conocenos</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <!-- link CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-     <!-- link BS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- link BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- link CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="bg">
     <!-- starts nav -->
@@ -48,36 +48,59 @@
     </nav>
     <!-- ends nav -->
     <!-- starts main content -->
-    <main>
+    <main class="container bg-lightblue rounded shadow ">
         <div class="nosotros">
-            <h1>Especialistas en Optimización, Mantenimiento y Reparación de Equipos Informáticos</h1>
+            <h1 class="fw-bold">Especialistas en Optimización, Mantenimiento y Reparación de Equipos Informáticos</h1>
             <p>Somos unos apasionados por hacer que el rendimiento de tus equipos informáticos sea óptimo y acorde a tus necesidades. Contamos con un equipo de expertos que te van a dar una atención personalizada, y buscando siempre la solución que se adapte a vos. Desde la detección y corrección de problemas hasta la implementación de estrategias para mejorar el funcionamiento de tu infraestructura tecnológica, nos esforzamos por garantizar que tu experiencia con la tecnología no tenga complicaciones. Nuestra misión es brindar servicios confiables y de calidad, permitiéndote enfocarte en lo que realmente importa mientras nosotros nos encargamos de mantener tu equipo en óptimas condiciones.</p>
         </div>
     </main>
     <!-- ends main content -->
     <!-- starts first section -->
-    <section class="gaming">
-        <img src="../img/gaming.webp" alt="Set up Gaming con leds de colores en tonos fucsia y purpura">
-        <div>
-            <h2>¿Utilizas tu PC para jugar o para streaming?</h2>
-            <p>Entendemos la importancia de un rendimiento óptimo cuando se trata de gaming o streaming. Nuestros servicios están diseñados para potenciar tu experiencia en estas áreas, ofreciendo soluciones a medida que maximizan el rendimiento de tu PC, para que puedas jugar o streamear sin problemas. Nuestro equipo especializado se asegura de que tu equipo esté listo para enfrentar los desafíos más exigentes, permitiéndote sumergirte por completo en tus juegos o compartir contenido de alta calidad con tu audiencia.</p>
-        </div>
-    </section>
-    <!-- ends first section -->
-    <!-- starts second section -->
-    <section class="office">
-        <img src="../img/office.webp" alt="imagen de una notebook utilizada para trabajos en una oficina">
-        <div>
-            <h2>¿Tu PC es pieza clave para tu trabajo?</h2>
-            <p>Para aquellos que dependen de su PC para trabajar, brindamos un conjunto integral de servicios diseñados para optimizar la productividad y la eficiencia. Desde la configuración y mantenimiento de sistemas operativos hasta la implementación de medidas de seguridad avanzadas, nos dedicamos a asegurar que tu equipo esté siempre listo para enfrentar las demandas del entorno laboral. Nuestros servicios incluyen la optimización de software para mejorar el rendimiento, la gestión proactiva de actualizaciones y copias de seguridad, así como el soporte técnico continuo para garantizar un flujo de trabajo sin contratiempos. Estamos comprometidos en proporcionarte la infraestructura tecnológica sólida y confiable que necesitas para alcanzar tus objetivos profesionales.</p>
-        </div>
-    </section>
+    <div class="container-fluid">
+        <section class="gaming">
+            <img class="img-gaming" src="../img/gaming.webp" alt="Set up Gaming con leds de colores en tonos fucsia y purpura">
+            <div class="text-gaming">
+                <h2>¿Utilizas tu PC para jugar o para streaming?</h2>
+                <p>Entendemos la importancia de un rendimiento óptimo cuando se trata de gaming o streaming. Nuestros servicios están diseñados para potenciar tu experiencia en estas áreas, ofreciendo soluciones a medida que maximizan el rendimiento de tu PC, para que puedas jugar o streamear sin problemas. Nuestro equipo especializado se asegura de que tu equipo esté listo para enfrentar los desafíos más exigentes, permitiéndote sumergirte por completo en tus juegos o compartir contenido de alta calidad con tu audiencia.</p>
+            </div>
+        </section>
+        <!-- ends first section -->
+        <!-- starts second section -->
+        <section class="office">
+            <img class="img-office" src="../img/office.webp" alt="imagen de una notebook utilizada para trabajos en una oficina">
+            <div class="text-office">
+                <h2>¿Tu PC es pieza clave para tu trabajo?</h2>
+                <p>Para aquellos que dependen de su PC para trabajar, brindamos un conjunto integral de servicios diseñados para optimizar la productividad y la eficiencia. Desde la configuración y mantenimiento de sistemas operativos hasta la implementación de medidas de seguridad avanzadas, nos dedicamos a asegurar que tu equipo esté siempre listo para enfrentar las demandas del entorno laboral. Nuestros servicios incluyen la optimización de software para mejorar el rendimiento, la gestión proactiva de actualizaciones y copias de seguridad, así como el soporte técnico continuo para garantizar un flujo de trabajo sin contratiempos. Estamos comprometidos en proporcionarte la infraestructura tecnológica sólida y confiable que necesitas para alcanzar tus objetivos profesionales.</p>
+            </div>
+        </section>
+        <section class="container bg-alternative rounded shadow">
+            <div class="maps">
+                <h2>¿Dónde nos encontras?</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.4592796197885!2d-60.5178033235982!3d-31.75795711284815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b44db91bb088ff%3A0xf66cc4a549d31e2f!2sDivisi%C3%B3n%20de%20los%20Andes%201233%2C%20Paran%C3%A1%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1702153051457!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="information">
+                <h3>Más información</h3>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-phone" viewBox="0 0 16 16">
+                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                        </svg>
+                        +54 343 5039083
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+                        </svg>
+                        Paraná, Entre Ríos, Argentina
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
     <!-- first second section -->
     <!-- start ubication -->
-    <section class="ubication">
-        <h2>¿Dónde nos encontras?</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.4592796197885!2d-60.5178033235982!3d-31.75795711284815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b44db91bb088ff%3A0xf66cc4a549d31e2f!2sDivisi%C3%B3n%20de%20los%20Andes%201233%2C%20Paran%C3%A1%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1702153051457!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    
     <!-- ends ubication -->
     <!-- starts Whatsapp button -->
     <div class="wsp">

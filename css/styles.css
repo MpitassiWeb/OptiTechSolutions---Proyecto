@@ -13,6 +13,9 @@
 .bg-alternative{
     background-color: #878787;
 }
+.bg-lightblue{
+    background-color: #00BBC9;
+}
 /* Presets */
 h1{
     text-align: center;
@@ -20,6 +23,7 @@ h1{
 }
 h1,h2,h3,h4,h5,h6{
     text-wrap: balance;
+    text-align: center;
 }
 p{
     text-wrap: pretty;
@@ -164,6 +168,7 @@ aside{
     display: flex;
     justify-content: center;
     padding: 30px;
+    margin-bottom: 2em;
 }
 .container-register{
     display: flex;
@@ -173,6 +178,15 @@ aside{
     padding: 4%;
     width: 90%;
 }
+/* #container-grid{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows:  30%, 35%, 35%;
+    grid-template-areas:
+        "1 2 2"
+        "3 4 4"
+        "5 5 6";
+} */
 /* Starts Services Page */
 .img-services{
     width: 25%;
@@ -206,49 +220,41 @@ aside{
 .gaming{
     display: flex;
     align-items: center;
+    justify-content: center;
+}    
+.img-gaming{
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
 }
-    .gaming h2{
-        text-align: center;
-    }
-    .gaming p{
-        margin: auto;
-        width: 70%;
-        text-align: center;
-    }
-    .gaming img{
-        width: 20%;
-        padding: 5px;
-        margin: 10px;
-    }
+.text-gaming{
+    width: 50%;
+}
 .office{
     display: flex;
     align-items: center;
+    justify-content: center;
+}    
+.img-office{
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
 }
-    .office h2{
-        text-align: center;
-    }
-    .office p{
-        margin: auto;
-        width: 70%;
-        text-align: center;
-    }
-    .office img{
-        width: 20%;
-        padding: 5px;
-        margin: 10px;
-    }
-.ubication{
-    margin: 20px;
+.text-office{
+    width: 50%;
+}
+.maps{
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+.information{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: end;
+    width: 30%;
 }
-    .ubication h2{
-        margin: 20px;
-    }
-    .ubication iframe{
-        margin: 20px;
-    }
 /* Ends About us Page */
 /* Whatsapp Button */
 .wsp{
