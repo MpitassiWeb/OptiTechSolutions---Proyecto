@@ -278,6 +278,12 @@ footer{
     .maps iframe{
         width: 80%;
     }
+    .img-gaming, .img-office{
+        width: 80vw;
+    }
+    .text-gaming, .text-office{
+        width: 75vw;
+    }
 }
 @media (720px >= width){
     .wsp{
@@ -285,5 +291,13 @@ footer{
     }
     .maps iframe{
         height: 300px;
+    }
+}
+@media (590px >= width){
+    .banner{
+        width: 90%;
+    }
+    .main-services figure{
+        width: 80%;
     }
 }
