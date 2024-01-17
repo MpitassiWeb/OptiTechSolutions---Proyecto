@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiTech Solutions - Tú solución informática</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- link BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg">
+    <!-- starts nav -->
+    <nav class="menu">
+        <!-- logo images -->
+        <img src="./img/logo.webp" alt="logo de OptiTech Solutions">
+        <!-- starts nav buttons -->
+        <ul>
+            <li class="active">
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="./pages/servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="./pages/contacto.html">Contacto</a>
+            </li>
+        </ul>
+        <!-- ends nav buttons -->
+        <!-- sign in button -->
+        <div class="login-button">
+            <a class="mi-button" href="./pages/login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg>
+                Iniciar Sesión
+            </a>
+        </div>
+    </nav>
+    <!-- ends nav -->
+    <!-- starts presentations -->
+    <header>
+        <!-- starts carrusel -->
+        <div class="banner">
+            <div id="carrusel" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/Banner1.webp" class="d-block w-100" alt="imagen de una PC en un taller de reparación, y un banner de 15% OFF si abonás en efectivo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/Banner2.webp" class="d-block w-100" alt="banner con un joystic de fondo y una frase que indica que optimizamos tu PC para un mejor rendimiento en juegos">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/Banner3.webp" class="d-block w-100" alt="banner explicativo acerca de los medios de pago disponibles. Los cuales son Efectivo, transferencia bancaria o cuotas a través de link de pago">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- ends carrusel -->
+    </header>
+    <!-- ends presentations -->
+    <!-- starts main content -->
+    <main>
+        <h1>Mirá los servicios que pensamos para vos</h1>
+        <section class="main-services">
+            <figure class="card optimization1">
+                <div class="img-service">
+                    <img src="./img/optimizacionPC.webp" class="card-img-top" alt="imagen de una notebook que muestra una gran velocidad de banda ancha en su pantalla">
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">Mejora de rendimiento en PC y Notebook</h2>
+                  <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Limpieza de archivos temporales
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Eliminación de Apps innecesarias
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Configuración de inicio del equipo
+                    </li>
+                    <li>
+                        <a href="./pages/servicios.html">Ver más...</a>
+                    </li>
+                  </ul>
+                  <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-currency-dollar" viewBox="0 0 16 16"><path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/></svg> 10.000</p>
+                </div>
+            </figure>
+            <figure class="card optimization2">
+                <div class="img-service">
+                    <img src="./img/actualizacionPC.webp" class="card-img-top" alt="imagen de una notebook actualizandose">
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">Actualización de PC y Notebook</h2>
+                  <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Reemplazo HDD por SSD
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Actualización Sistema Operativo
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Optimización Sistema Operativo
+                    </li>
+                    <li>
+                        <a href="./pages/servicios.html">Ver más...</a>
+                    </li>
+                  </ul>
+                  <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-currency-dollar" viewBox="0 0 16 16"><path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/></svg> 20.000</p>
+                </div>
+            </figure>
+            <figure class="card maitenance1">
+                <div class="img-service">
+                    <img src="./img/mantenimientoPC.webp" class="card-img-top" alt="imagen de unas manos manipulando un procesador en una notebook desarmada">
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">Mantenimiento de PC y Notebook</h2>
+                  <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Limpieza del hardware
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Cambio de pasta térmica
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16m0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15"/>
+                      </svg>Optimización del Sistema Operativo
+                    </li>
+                    <li>
+                        <a href="./pages/servicios.html">Ver más...</a>
+                    </li>
+                  </ul>
+                  <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-currency-dollar" viewBox="0 0 16 16"><path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/></svg> 12.000</p>
+                </div>
+            </figure>
+        </section>
+    </main>
+    <!-- ends main content -->
+    <!-- starts First Footer -->
+    <aside>
+        <h2> Somos OptiTech Solutions</h2>
+        <div>
+            <p>Nos especializamos en llevar tus equipos informáticos al siguiente nivel 🚀🔥. Nuestro servicio integral cubre desde la reparación hasta el mantenimiento y optimización de PCs y notebooks. <br>Entendemos la importancia de contar con tecnología confiable y eficiente, tanto para el trabajo como para el entretenimiento. Por ello, que contamos con un equipo de técnicos capacitados para darte las mejores opciones. Nos comprometemos a proporcionar soluciones rápidas, efectivas y personalizadas, garantizando que tus equipos estén siempre listos para enfrentar cualquier desafío. <br> Te brindamos soluciones óptimas para tus necesidades informáticas 🖥️💻. </p>
+        </div>
+    </aside>
+    <!-- ends First Footer -->
+    <!-- starts Whatsapp button -->
+    <div class="wsp">
+        <a href="wa.me/c/5493434607941" target="_blank">
+            <img src="./img/whatsapp1.png" alt="Envianos un mensaje por Whatsapp">
+        </a>
+    </div>
+    <!-- ends Whatsapp button -->
+    <!-- starts footer -->
+    <footer>
+        <!-- starts copyrighting -->
+        <p>Copyright © Optitech Solutions 2023</p>
+        <!-- ends copyrighting -->
+        <!-- starts social networks -->
+        <nav class="social-networks">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="./img/facebook.png" alt="Seguinos también en facebook">
+            </a>
+            <a href="https://www.instagram.com/opti.tech.solutions" target="_blank">
+                <img src="./img/instagram.png" alt="Seguinos también en instagram">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="./img/twitter.png" alt="Seguinos también en twitter">
+            </a>
+            <a href="https://www.blogger.com/" target="_blank">
+                <img src="./img/blogger.png" alt="Mirá nuestro Blog">
+            </a>
+        </nav>
+        <!-- ends social networks -->
+    </footer>
+    <!-- ends footer -->
+    <!-- script BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

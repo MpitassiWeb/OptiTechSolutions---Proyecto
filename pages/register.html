@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiTech Solutions - Se parte de nuestra comunidad</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+     <!-- link BS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- link CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="bg">
+    <!-- starts nav -->
+    <nav class="menu">
+        <!-- logo images -->
+        <img src="../img/logo.webp" alt="logo de OptiTech Solutions">
+        <!-- starts nav buttons -->
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="./nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="./contacto.html">Contacto</a>
+            </li>
+        </ul>
+        <!-- ends nav buttons -->
+        <!-- sign in button -->
+        <div class="login-button">
+            <a class="mi-button" href="./login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00BBC9" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg>
+                Iniciar Sesión
+            </a>
+        </div>
+    </nav>
+    <!-- ends nav -->
+    <!-- starts main content -->
+    <main>
+        <div class="container-register shadow rounded bg-alternative">
+            <h1>Registrate</h1>
+            <div class="container bg rounded shadow">
+                <section class="row">
+                    <div class="col-xl-8">
+                        <h2 class="text-center py-3">Datos personales</h2>
+                        <form action="datos.php" method="post" class="row g-3">
+                            <div class="col-md-6 col-sm-12">
+                            <label for="inputName" class="form-label">Nombre*</label>
+                            <input type="text" class="form-control shadow" id="inputName" placeholder="Escriba su Nombre">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                            <label for="inputLast" class="form-label">Apellido*</label>
+                            <input type="password" class="form-control shadow" id="inputLast" placeholder="Escriba su Apellido">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <label for="inputEmail" class="form-label">Correo electrónico*</label>
+                            <input type="email" class="form-control shadow" id="inputEmail" placeholder="Escriba su Email">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <label for="inputCity" class="form-label">Ciudad</label>
+                                <input type="text" class="form-control shadow" id="inputCity" placeholder="Escriba su Ciudad">
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                            <label for="inputTelephone" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control shadow" id="inputTelephone" placeholder="Escriba su Teléfono">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-4">
+                        <h2 class="text-center py-3">Datos de la cuenta</h2>
+                        <form action="cuenta.php" method="post" class="row g-3">
+                            <div class="col-md-12">
+                            <label for="inputUser" class="form-label">Nombre de usuario*</label>
+                            <input type="text" class="form-control shadow" id="inputUser" placeholder="Escriba su Nombre de usuario">
+                            </div>
+                            <div class="col-md-12">
+                            <label for="inputPsw" class="form-label">Contraseña*</label>
+                            <input type="password" class="form-control shadow" id="inputPsw" placeholder="Escriba su Contraseña">
+                            </div>
+                            <p>La contraseña debe contar como mínimo con 10 dígitos, debe ser alfanumérica e incluir mayúsculas y minúsculas.</p>
+                            <button type="submit" class="btn mi-button shadow">Enviar</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- ends main content -->
+    <!-- starts Whatsapp button -->
+    <div class="wsp">
+        <a href="wa.me/c/5493434607941" target="_blank">
+            <img src="../img/whatsapp1.png" alt="Envianos un mensaje por Whatsapp">
+        </a>
+    </div>
+    <!-- ends Whatsapp button -->
+    <!-- starts footer -->
+    <footer>
+        <!-- starts copyrighting -->
+        <p>Copyright © Optitech Solutions 2023</p>
+        <!-- ends copyrighting -->
+        <!-- starts social networks -->
+        <nav class="social-networks">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../img/facebook.png" alt="Seguinos también en facebook">
+            </a>
+            <a href="https://www.instagram.com/opti.tech.solutions" target="_blank">
+                <img src="../img/instagram.png" alt="Seguinos también en instagram">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="../img/twitter.png" alt="Seguinos también en twitter">
+            </a>
+            <a href="https://www.blogger.com/" target="_blank">
+                <img src="../img/blogger.png" alt="Mirá nuestro Blog">
+            </a>
+        </nav>
+        <!-- ends social networks -->
+    </footer>
+    <!-- ends footer -->
+    <!-- script BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
