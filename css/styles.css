@@ -263,6 +263,16 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    :is(.maintenance, .repair, .optimization) article{
+        flex-direction: column;
+    }
+    .img-services{
+        width: 70vw;
+    }
+    .services p{
+        width: 65vw;
+    }
+
 }
 @media (1122px >= width){
     .banner{
@@ -284,6 +294,9 @@ footer{
     .text-gaming, .text-office{
         width: 75vw;
     }
+    .img-services{
+        width: 80vw;
+    }
 }
 @media (720px >= width){
     .wsp{
@@ -299,5 +312,11 @@ footer{
     }
     .main-services figure{
         width: 80%;
+    }
+    .ul-services{
+        margin-left: 0.8em;
+    }
+    .maintenance{
+        margin-top: 15%;
     }
 }
