@@ -23,7 +23,6 @@ h1{
 }
 h1,h2,h3,h4,h5,h6{
     text-wrap: balance;
-    text-align: center;
 }
 p{
     text-wrap: pretty;
@@ -178,15 +177,6 @@ aside{
     padding: 4%;
     width: 90%;
 }
-/* #container-grid{
-    display: grid;
-    grid-template-columns: 300px 500px;
-    grid-template-rows:  30%, 35%, 35%;
-    grid-template-areas:
-        "1 2 2"
-        "3 4 4"
-        "5 5 6";
-} */
 /* Starts Services Page */
 .img-services{
     width: 25%;
@@ -255,6 +245,9 @@ aside{
     align-items: end;
     width: 30%;
 }
+    .information ul{
+        list-style: none;
+    }
 /* Ends About us Page */
 /* Whatsapp Button */
 .wsp{
