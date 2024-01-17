@@ -235,3 +235,12 @@ footer{
     width: 10%;
 }
 /* Starts Responsive */
+@media (1122px >= width){
+    .main-services{
+        flex-direction: column;
+        align-items: center;
+    }
+        .main-services figure{
+            width: 60%;
+        }
+}
