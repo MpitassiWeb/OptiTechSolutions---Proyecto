@@ -265,6 +265,9 @@ footer{
     }
 }
 @media (1122px >= width){
+    .banner{
+        width: 85%;
+    }
     .main-services{
         flex-direction: column;
         align-items: center;
@@ -272,9 +275,15 @@ footer{
         .main-services figure{
             width: 60%;
         }
+    .maps iframe{
+        width: 80%;
+    }
 }
 @media (720px >= width){
     .wsp{
         bottom: 10%;
+    }
+    .maps iframe{
+        height: 300px;
     }
 }
