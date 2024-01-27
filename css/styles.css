@@ -231,9 +231,6 @@ footer{
         font-weight: bold;
         margin-bottom: 0;
     }
-.social-networks img{
-    width: 30px;
-}
 .social-networks ul{
     list-style: none;
     display: flex;
