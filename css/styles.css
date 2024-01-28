@@ -139,13 +139,15 @@ aside{
     padding: 4%;
     width: 90%;
 }
-/* Starts Services Page */
-.img-services{
-    width: 25%;
+.container-services{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
+/* Starts Services Page */
 .ul-services{
     list-style: none;
-    margin-left: 2em;
 }
 /* Ends Services Page */
 /* Starts Login Page */
