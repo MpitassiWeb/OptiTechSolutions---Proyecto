@@ -149,6 +149,9 @@ aside{
 .ul-services{
     list-style: none;
 }
+.container-services img{
+    padding: 3%;
+}
 /* Ends Services Page */
 /* Starts Login Page */
 .img-logo{
