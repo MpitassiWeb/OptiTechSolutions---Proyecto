@@ -1,0 +1,35 @@
+//Vars
+$mainFont:'Roboto', sans-serif;
+
+//Colors
+$colorPalette:(
+    'main': #CACACA,
+    'second': #878787,
+    'third': #00BBC9,
+    'fourth': #00747C,
+    'black': #202022,
+    'white': #e9e9e9f8,
+);
+//Reset
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+//Presets
+h1{
+    text-align: center;
+    padding-bottom: 1%;
+}
+h1,h2,h3,h4,h5,h6{
+    text-wrap: balance;
+}
+p{
+    text-wrap: pretty;
+}
+main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
