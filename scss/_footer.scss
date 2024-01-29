@@ -1,0 +1,24 @@
+//Footer
+footer{
+    padding: 20px;
+    background-color: map-get($map: $colorPalette, $key: 'second');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p{
+       font-size: 0.9em;
+       color: map-get($map: $colorPalette, $key: 'black');
+       margin-bottom: 0;
+    }
+}
+//Social Networks
+.social-networks {
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 2%;
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}

@@ -25,6 +25,8 @@ h1,h2,h3,h4,h5,h6{
 }
 p{
     text-wrap: pretty;
+    line-height: 1em;
+    margin: 1em;
 }
 main{
     margin-top: 5%;
@@ -78,13 +80,13 @@ body{
             margin: auto;
             margin-top: 3%;
         }
-        .main-services figure img{
-            object-fit: cover;
-            transition: 0.2s;
-        }
-        .main-services figure img:hover{
-            transform: scale(1.05) ;
-        }
+            .main-services figure .img-service img{
+                object-fit: cover;
+                transition: 0.2s;
+            }
+            .main-services figure .img-service img:hover{
+                transform: scale(1.05) ;
+            }
         .main-services figure h2{
             font-size: 1.6rem;
         }
@@ -273,7 +275,6 @@ footer{
     .services p{
         width: 65vw;
     }
-
 }
 /* 1122 Brekpoint */
 @media (1122px >= width){

@@ -1,0 +1,80 @@
+//Responsive
+//*1325 Brekpoint
+@media (1325px >= width){
+    .gaming, .office{
+        flex-direction: column;
+    }
+    .img-gaming, .img-office{
+        width: 70vw;
+    }
+    .text-gaming, .text-office{
+        width: 65vw;
+    }
+    .information{
+        display: none;
+    }
+    .maps{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    :is(.maintenance, .repair, .optimization) article{
+        flex-direction: column;
+    }
+    .img-services{
+        width: 70vw;
+    }
+    .services p{
+        width: 65vw;
+    }
+}
+//*1122 Breakpoint 
+@media (1122px >= width){
+    .banner{
+        width: 85%;
+    }
+    .main-services{
+        flex-direction: column;
+        align-items: center;
+        figure{
+            width: 60%;
+        }
+    }
+    .maps iframe{
+        width: 80%;
+    }
+    .img-gaming, .img-office{
+        width: 80vw;
+    }
+    .text-gaming, .text-office{
+        width: 75vw;
+    }
+    .img-services{
+        width: 80vw;
+    }
+}
+//*720 Breakpoint
+@media (720px >= width){
+    .wsp{
+        bottom: 10%;
+    }
+    .maps iframe{
+        height: 300px;
+    }
+}
+//*590 Breakpoint
+@media (590px >= width){
+    .banner{
+        width: 90%;
+    }
+    .main-services figure{
+        width: 80%;
+    }
+    .ul-services{
+        margin-left: 0.8em;
+    }
+    .maintenance{
+        margin-top: 15%;
+    }
+}
