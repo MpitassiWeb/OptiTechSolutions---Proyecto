@@ -23,42 +23,11 @@ ul{
     list-style: none;
 }
 
-//Backgrounds
-.bg{
-    background-color: map-get($map: $colorPalette, $key: 'main');
-}
-.bg-alternative{
-    background-color: map-get($map: $colorPalette, $key: 'second');
-}
-.bg-lightblue{
-    background-color: map-get($map: $colorPalette, $key: 'third');
-}
-
 //Clase Active
 .active{
     border-bottom: 2px solid map-get($map: $colorPalette, $key: 'black');
 }
-//Containers
-.container{
-    @include flex(row, nowrap, normal, center);
-    padding: 30px;
-    margin-bottom: 2em;
-}
-.container-register{
-    @include flex(column, nowrap, normal, center);
-    margin: auto;
-    padding: 4%;
-    width: 90%;
-}
-.container-services{
-    width: 80vw;
-    @include flex(column, nowrap, normal, normal);
-    margin: auto;
-    img{
-        padding: 3%;
-    }
-}
-.img-logo{
-    width: 45%;
-}
+
+
+
 
