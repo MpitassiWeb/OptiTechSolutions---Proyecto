@@ -5,23 +5,23 @@
   box-sizing: border-box;
 }
 
-h1 {
-  text-align: center;
-  padding-bottom: 1%;
+body {
+  position: relative;
+  min-height: 100dvh;
+  background-color: #CACACA;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
-}
-
-p {
-  text-wrap: pretty;
-  line-height: 1em;
+img {
+  max-width: 100%;
 }
 
 main {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+ul {
+  list-style: none;
 }
 
 .bg {
@@ -42,6 +42,9 @@ main {
 
 .container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: normal;
   justify-content: center;
   padding: 30px;
   margin-bottom: 2em;
@@ -50,6 +53,8 @@ main {
 .container-register {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: normal;
   justify-content: center;
   margin: auto;
   padding: 4%;
@@ -60,22 +65,67 @@ main {
   width: 80vw;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: normal;
+  justify-content: normal;
   margin: auto;
 }
 .container-services img {
   padding: 3%;
 }
 
-.ul-services {
-  list-style: none;
-}
-
 .img-logo {
   width: 45%;
 }
 
-.link-register a {
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
   color: #202022;
+  font-size: 1rem;
+  line-height: 1;
+}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+  margin-top: 0;
+}
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 0.75;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 0.75;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 0.5;
+}
+
+h6 {
+  font-size: 0.9rem;
+  line-height: 0.5;
+}
+
+p {
+  text-wrap: pretty;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .mi-button {
@@ -84,18 +134,32 @@ main {
   padding: 6px 8px;
   background-color: #202022;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1rem;
   color: #00BBC9;
 }
 .mi-button:hover {
   background-color: rgba(233, 233, 233, 0.9725490196);
   color: #00747C;
 }
+.mi-button:focus-visible {
+  border: 2px solid #00BBC9;
+  background-color: rgba(233, 233, 233, 0.9725490196);
+}
 
 .wsp {
   position: fixed;
   right: 3%;
   bottom: 4%;
+}
+
+a {
+  color: #202022;
+}
+a:hover {
+  color: #00747C;
+}
+a:focus-visible {
+  border: 1px solid #00BBC9;
 }
 
 .banner {
@@ -168,84 +232,12 @@ aside h2 {
   text-align: center;
 }
 
-@media (1325px >= width) {
-  .gaming, .office {
-    flex-direction: column;
-  }
-  .img-gaming, .img-office {
-    width: 70vw;
-  }
-  .text-gaming, .text-office {
-    width: 65vw;
-  }
-  .information {
-    display: none;
-  }
-  .maps {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  :is(.maintenance, .repair, .optimization) article {
-    flex-direction: column;
-  }
-  .img-services {
-    width: 70vw;
-  }
-  .services p {
-    width: 65vw;
-  }
-}
-@media (1122px >= width) {
-  .banner {
-    width: 85%;
-  }
-  .main-services {
-    flex-direction: column;
-    align-items: center;
-  }
-  .main-services figure {
-    width: 60%;
-  }
-  .maps iframe {
-    width: 80%;
-  }
-  .img-gaming, .img-office {
-    width: 80vw;
-  }
-  .text-gaming, .text-office {
-    width: 75vw;
-  }
-  .img-services {
-    width: 80vw;
-  }
-}
-@media (720px >= width) {
-  .wsp {
-    bottom: 10%;
-  }
-  .maps iframe {
-    height: 300px;
-  }
-}
-@media (590px >= width) {
-  .banner {
-    width: 90%;
-  }
-  .main-services figure {
-    width: 80%;
-  }
-  .ul-services {
-    margin-left: 0.8em;
-  }
-  .maintenance {
-    margin-top: 15%;
-  }
-}
 .nosotros {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: normal;
+  justify-content: normal;
   padding: 5px;
   margin: 5px;
 }
@@ -256,40 +248,25 @@ aside h2 {
   margin: auto;
 }
 
-.gaming {
+.services {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
 }
 
-.img-gaming {
+.services img, .information {
   width: 30%;
   padding: 5px;
   margin: 10px;
 }
 
-.text-gaming {
-  width: 50%;
-}
-
-.office {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.img-office {
-  width: 30%;
-  padding: 5px;
-  margin: 10px;
-}
-
-.text-office {
+.gaming, .office, .maps {
   width: 50%;
 }
 
 .maps {
-  width: 50%;
   padding: 5px;
   margin: 10px;
 }
@@ -297,12 +274,9 @@ aside h2 {
 .information {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: nowrap;
   align-items: end;
-  width: 30%;
-}
-.information ul {
-  list-style: none;
+  justify-content: center;
 }
 
 footer {
@@ -319,12 +293,96 @@ footer p {
 }
 
 .social-networks ul {
-  list-style: none;
   display: flex;
   gap: 2%;
   padding-left: 0;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+@media (1325px >= width) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .services img {
+    width: 70vw;
+  }
+  .gaming, .office {
+    width: 60vw;
+  }
+  .information {
+    display: none;
+  }
+  .maps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: normal;
+  }
+  :is(.maintenance, .repair, .optimization) article {
+    flex-direction: column;
+  }
+  .img-services {
+    width: 70vw;
+  }
+}
+@media (1122px >= width) {
+  .banner {
+    width: 85%;
+  }
+  .main-services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: normal;
+  }
+  .main-services figure {
+    width: 60%;
+  }
+  .maps iframe {
+    width: 80%;
+  }
+  .services img {
+    width: 80vw;
+  }
+  .gaming, .office {
+    width: 75vw;
+  }
+  .img-services {
+    width: 80vw;
+  }
+}
+@media (720px >= width) {
+  .wsp {
+    bottom: 5%;
+  }
+  .maps iframe {
+    height: 300px;
+  }
+  .container-services {
+    margin-top: 15%;
+  }
+}
+@media (590px >= width) {
+  .banner {
+    width: 90%;
+  }
+  .main-services figure {
+    width: 80%;
+  }
+  .ul-services {
+    margin-left: 0.8em;
+  }
+  .maintenance {
+    margin-top: 15%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

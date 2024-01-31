@@ -1,7 +1,6 @@
 //Nosotros page
 .nosotros{
-    display: flex;
-    flex-direction: column;
+    @include flex(column, nowrap, normal, normal);
     padding: 5px;
     margin: 5px;
     p{
@@ -11,44 +10,22 @@
         margin: auto;
     }
 }
-.gaming{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}    
-.img-gaming{
+.services{
+    @include flex(row, nowrap, center, center);
+}
+.services img, .information{
     width: 30%;
     padding: 5px;
     margin: 10px;
-}
-.text-gaming{
-    width: 50%;
-}
-.office{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }    
-.img-office{
-    width: 30%;
-    padding: 5px;
-    margin: 10px;
-}
-.text-office{
+.gaming, .office, .maps{
     width: 50%;
 }
 .maps{
-    width: 50%;
     padding: 5px;
     margin: 10px;
 }
 .information{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    width: 30%;
-    ul{
-        list-style: none;
-    }
+    @include flex(column, nowrap, end, center);
 }

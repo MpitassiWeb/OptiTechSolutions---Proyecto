@@ -1,0 +1,35 @@
+h1,h2,h3,h4,h5,h6{
+    text-wrap: balance;
+    color: map-get($map: $colorPalette, $key: 'black');
+    @include text($font-m,$lh-m);
+
+    &:first-child{
+        margin-top: 0;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+h1{
+    text-align: center;
+    @include text($font-3xl,$lh-l);
+}
+h2{
+    @include text($font-xxl,$lh-m);
+}
+h3{
+    @include text($font-xl,$lh-s);
+}
+h4{
+    @include text($font-l,$lh-s);
+}
+h5{
+    @include text($font-m,$lh-xs);
+}
+h6{
+    @include text($font-s,$lh-xs);
+}
+p{
+    text-wrap: pretty;
+    @include text($font-m,$lh-l);
+}

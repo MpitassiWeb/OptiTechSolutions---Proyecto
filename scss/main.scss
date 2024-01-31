@@ -1,7 +1,17 @@
-//imports
+//Import Vars
+@import "_vars";
+//Import Mixins
+@import "_mixins";
+//Import Base
 @import "_base";
+//Import Tipography
+@import "_tipography";
+//Import Buttons
 @import "_buttons";
+//Import Pages
 @import "_index";
-@import "_responsive";
 @import "_nosotros";
+//Import Footer
 @import "_footer";
+//Import Responsive
+@import "_responsive";

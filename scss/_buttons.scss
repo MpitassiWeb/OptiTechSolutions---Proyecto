@@ -5,16 +5,32 @@
     padding: 6px 8px;
     background-color: map-get($map: $colorPalette, $key: 'black');
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: $font-m;
     color: map-get($map: $colorPalette, $key: 'third');
     &:hover{
         background-color: map-get($map: $colorPalette, $key: 'white');
         color: map-get($map: $colorPalette, $key: 'fourth');
     }
+    &:focus-visible{
+        border: 2px solid map-get($map: $colorPalette, $key: 'third');
+        background-color: map-get($map: $colorPalette, $key: 'white');
+    }
 }
+
 //WhatsApp Button
 .wsp{
     position: fixed;
     right: 3%;
     bottom: 4%;
+}
+
+//Links
+a{
+    color: map-get($map: $colorPalette, $key: 'black');
+    &:hover{
+        color: map-get($map: $colorPalette, $key: 'fourth');
+    }
+    &:focus-visible{
+        border: 1px solid map-get($map: $colorPalette, $key: 'third')
+    }
 }

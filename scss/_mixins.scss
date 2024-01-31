@@ -1,0 +1,11 @@
+@mixin flex($direction, $wrap, $align, $justify){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    align-items: $align;
+    justify-content: $justify;
+}
+@mixin text($size, $lineHeight){
+    font-size: $size;
+    line-height: $lineHeight;
+}

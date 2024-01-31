@@ -1,15 +1,3 @@
-//Vars
-$mainFont:'Roboto', sans-serif;
-
-//Colors
-$colorPalette:(
-    'main': #CACACA,
-    'second': #878787,
-    'third': #00BBC9,
-    'fourth': #00747C,
-    'black': #202022,
-    'white': #e9e9e9f8,
-);
 //Reset
 *{
     padding: 0;
@@ -17,22 +5,24 @@ $colorPalette:(
     font-family: $mainFont;
     box-sizing: border-box;
 }
+
 //Presets
-h1{
-    text-align: center;
-    padding-bottom: 1%;
+body{
+    position: relative;
+    min-height: 100dvh;
+    background-color: map-get($map: $colorPalette, $key: 'main');
 }
-h1,h2,h3,h4,h5,h6{
-    text-wrap: balance;
-}
-p{
-    text-wrap: pretty;
-    line-height: 1em;
+img{
+    max-width: 100%;
 }
 main{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+ul{
+    list-style: none;
+}
+
 //Backgrounds
 .bg{
     background-color: map-get($map: $colorPalette, $key: 'main');
@@ -43,40 +33,32 @@ main{
 .bg-lightblue{
     background-color: map-get($map: $colorPalette, $key: 'third');
 }
+
 //Clase Active
 .active{
     border-bottom: 2px solid map-get($map: $colorPalette, $key: 'black');
 }
 //Containers
 .container{
-    display: flex;
-    justify-content: center;
+    @include flex(row, nowrap, normal, center);
     padding: 30px;
     margin-bottom: 2em;
 }
 .container-register{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex(column, nowrap, normal, center);
     margin: auto;
     padding: 4%;
     width: 90%;
 }
 .container-services{
     width: 80vw;
-    display: flex;
-    flex-direction: column;
+    @include flex(column, nowrap, normal, normal);
     margin: auto;
     img{
         padding: 3%;
     }
 }
-.ul-services{
-    list-style: none;
-}
 .img-logo{
     width: 45%;
 }
-.link-register a{
-    color: map-get($map: $colorPalette, $key: 'black');
-}
+
