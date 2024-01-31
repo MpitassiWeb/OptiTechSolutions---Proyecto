@@ -1,6 +1,6 @@
 //Responsive
 //*1325 Brekpoint
-@media (1325px >= width){
+@media ( $xl >= width){
     .services{
         @include flex(column, wrap, center, center);
     }
@@ -25,7 +25,7 @@
     }
 }
 //*1122 Breakpoint 
-@media (1122px >= width){
+@media ( $l >= width){
     .banner{
         width: 85%;
     }
@@ -49,7 +49,7 @@
     }
 }
 //*720 Breakpoint
-@media (720px >= width){
+@media ( $m >= width){
     .wsp{
         bottom: 5%;
     }
@@ -61,7 +61,7 @@
     }
 }
 //*590 Breakpoint
-@media (590px >= width){
+@media ( $s >= width >= width){
     .banner{
         width: 90%;
     }

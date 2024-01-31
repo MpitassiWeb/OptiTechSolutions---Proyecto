@@ -39,9 +39,7 @@ $colorPalette:(
 );
 
 //Breakpoints
-$breakpoints:(
-    's': 590px,
-    'm': 720px,
-    'l': 1122px,
-    'xl': 1325px,
-);
+$s: 590px;
+$m: 720px;
+$l: 1122px;
+$xl: 1325px;

@@ -2,6 +2,7 @@ h1,h2,h3,h4,h5,h6{
     text-wrap: balance;
     color: map-get($map: $colorPalette, $key: 'black');
     @include text($font-m,$lh-m);
+    margin-top: 20px;
 
     &:first-child{
         margin-top: 0;
@@ -12,13 +13,13 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
     text-align: center;
-    @include text($font-3xl,$lh-l);
+    @include text($font-3xl,$lh-m);
 }
 h2{
     @include text($font-xxl,$lh-m);
 }
 h3{
-    @include text($font-xl,$lh-s);
+    @include text($font-xl,$lh-l);
 }
 h4{
     @include text($font-l,$lh-s);

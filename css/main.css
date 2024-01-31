@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #202022;
   font-size: 1rem;
   line-height: 1;
+  margin-top: 20px;
 }
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
   margin-top: 0;
@@ -94,7 +95,7 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:la
 h1 {
   text-align: center;
   font-size: 3rem;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 h2 {
@@ -104,7 +105,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  line-height: 0.75;
+  line-height: 1.5;
 }
 
 h4 {
@@ -245,7 +246,7 @@ aside h2 {
   text-align: center;
   margin: 10px;
   width: 80%;
-  margin: auto;
+  margin-inline: auto;
 }
 
 .services {
@@ -370,7 +371,7 @@ footer p {
     margin-top: 15%;
   }
 }
-@media (590px >= width) {
+@media (590px >= width >= width) {
   .banner {
     width: 90%;
   }
