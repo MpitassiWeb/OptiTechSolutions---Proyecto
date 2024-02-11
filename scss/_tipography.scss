@@ -1,3 +1,5 @@
+//Styles of Tipograhy
+//Generals Headlines 
 h1,h2,h3,h4,h5,h6{
     text-wrap: balance;
     color: map-get($map: $colorPalette, $key: 'black');
@@ -11,6 +13,7 @@ h1,h2,h3,h4,h5,h6{
         margin-bottom: 0;
     }
 }
+//Specific Headlines
 h1{
     text-align: center;
     @include text($font-3xl,$lh-m);
@@ -30,6 +33,7 @@ h5{
 h6{
     @include text($font-s,$lh-xs);
 }
+//Paragraphs
 p{
     text-wrap: pretty;
     @include text($font-m,$lh-l);

@@ -16,14 +16,12 @@
         background-color: map-get($map: $colorPalette, $key: 'white');
     }
 }
-
 //WhatsApp Button
 .wsp{
     position: fixed;
     right: 3%;
     bottom: 4%;
 }
-
 //Links
 a{
     color: map-get($map: $colorPalette, $key: 'black');
