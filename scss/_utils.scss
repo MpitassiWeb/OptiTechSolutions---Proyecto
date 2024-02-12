@@ -16,17 +16,30 @@
     margin-bottom: 2em;
 }
 .container-register{
-    @include flex(column, nowrap, normal, center);
+    @extend .container;
+    flex-direction: column;
     margin: auto;
     padding: 4%;
     width: 90%;
 }
 .container-services{
+    @extend .container-register;
     width: 80vw;
-    @include flex(column, nowrap, normal, normal);
+    justify-content: normal;
     margin: auto;
     img{
         padding: 3%;
+    }
+}
+.container404{
+    @extend .container-services;
+    align-items: center;
+    h1{
+        margin-bottom: 20px;
+    }
+    img{
+        width: 400px;
+        padding: 20px;
     }
 }
 //Imagen logo
