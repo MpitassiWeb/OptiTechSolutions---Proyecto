@@ -75,6 +75,15 @@
     .banner{
         width: 90%;
     }
+    h1{
+        @include text ($font-3xl,$lh-m);
+    }
+    h2{
+        @include text($font-xxl,$lh-m);
+    }
+    h3{
+        @include text($font-xl,$lh-m);
+    }
     .main-services figure{
         width: 80%;
     }

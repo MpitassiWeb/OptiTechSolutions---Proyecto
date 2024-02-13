@@ -207,9 +207,6 @@ a:focus-visible {
 .main-services figure .img-service img:hover {
   transform: scale(1.05);
 }
-.main-services figure h2 {
-  font-size: 1.6rem;
-}
 .main-services figure ul {
   list-style: none;
   margin: 2%;
@@ -395,6 +392,18 @@ footer p {
 @media (590px >= width) {
   .banner {
     width: 90%;
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1;
   }
   .main-services figure {
     width: 80%;

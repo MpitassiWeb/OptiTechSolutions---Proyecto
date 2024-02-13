@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{
 //Specific Headlines
 h1{
     text-align: center;
-    @include text($font-3xl,$lh-m);
+    @include text($font-4xl,$lh-m);
     color: map-get($map: $colorPalette, $key: 'black');
     text-shadow: 1px 2px 9px map-get($map: $colorPalette, $key: 'second');
 }
