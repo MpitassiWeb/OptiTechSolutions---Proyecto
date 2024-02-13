@@ -3,6 +3,7 @@
 h1,h2,h3,h4,h5,h6{
     text-wrap: balance;
     color: map-get($map: $colorPalette, $key: 'black');
+    text-shadow: 1px 2px 9px map-get($map: $colorPalette, $key: 'second');
     @include text($font-m,$lh-m);
     margin-top: 20px;
 
@@ -17,6 +18,8 @@ h1,h2,h3,h4,h5,h6{
 h1{
     text-align: center;
     @include text($font-3xl,$lh-m);
+    color: map-get($map: $colorPalette, $key: 'black');
+    text-shadow: 1px 2px 9px map-get($map: $colorPalette, $key: 'second');
 }
 h2{
     @include text($font-xxl,$lh-m);

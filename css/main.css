@@ -41,10 +41,17 @@
 }
 .container404 h1 {
   margin-bottom: 20px;
+  color: rgba(233, 233, 233, 0.9725490196);
+  text-shadow: 1px 2px 4px #202022;
 }
 .container404 img {
   width: 400px;
   padding: 20px;
+  border-radius: 8%;
+}
+.container404 p {
+  font-size: 1rem;
+  line-height: 2;
 }
 
 .img-logo {
@@ -84,6 +91,7 @@ ul {
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
   color: #202022;
+  text-shadow: 1px 2px 9px #878787;
   font-size: 1rem;
   line-height: 1;
   margin-top: 20px;
@@ -99,6 +107,8 @@ h1 {
   text-align: center;
   font-size: 3rem;
   line-height: 1;
+  color: #202022;
+  text-shadow: 1px 2px 9px #878787;
 }
 
 h2 {
@@ -362,6 +372,10 @@ footer p {
   .img-services {
     width: 80vw;
   }
+  .container404 p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
 }
 @media (720px >= width) {
   .wsp {
@@ -373,8 +387,12 @@ footer p {
   .container-services, .container404 {
     margin-top: 15%;
   }
+  .container404 p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
-@media (590px >= width >= width) {
+@media (590px >= width) {
   .banner {
     width: 90%;
   }
@@ -386,6 +404,15 @@ footer p {
   }
   .maintenance {
     margin-top: 15%;
+  }
+  .container404 {
+    width: 90vw;
+  }
+  .container404 h1 {
+    padding-inline: 3px;
+  }
+  .container404 p {
+    padding-inline: 10px;
   }
 }
 

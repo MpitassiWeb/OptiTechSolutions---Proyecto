@@ -47,6 +47,11 @@
     .img-services{
         width: 80vw;
     }
+    .container404{
+        p{
+            @include text($font-m, $lh-xl);
+        }
+    }
 }
 //*720 Breakpoint
 @media ( $m >= width){
@@ -59,9 +64,14 @@
     .container-services{
         margin-top: 15%;
     }
+    .container404{
+        p{
+            @include text($font-m, $lh-l);
+        }
+    }
 }
 //*590 Breakpoint
-@media ( $s >= width >= width){
+@media ( $s >= width){
     .banner{
         width: 90%;
     }
@@ -73,5 +83,14 @@
     }
     .maintenance{
         margin-top: 15%;
+    }
+    .container404{
+        width: 90vw;
+        h1{
+            padding-inline: 3px;
+        }
+        p{
+            padding-inline: 10px;
+        }
     }
 }
