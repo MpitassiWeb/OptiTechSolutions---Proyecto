@@ -21,10 +21,7 @@ main{
 ul{
     list-style: none;
 }
-//Clase Active
-.active{
-    border-bottom: 2px solid map-get($map: $colorPalette, $key: 'black');
-}
+
 
 
 

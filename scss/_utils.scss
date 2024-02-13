@@ -48,6 +48,10 @@
         @include text($font-m,$lh-xxl);
     }
 }
+//Clase Active
+.active{
+    border-bottom: 2px solid map-get($map: $colorPalette, $key: 'black');
+}
 //Imagen logo
 .img-logo{
     width: 45%;
