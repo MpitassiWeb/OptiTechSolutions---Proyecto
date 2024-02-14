@@ -69,7 +69,7 @@ Además utilicé estas herramientas:
 - [OptiTech-Solutions Repositorio GitHub](https://github.com/MpitassiWeb/OptiTechSolutions---Proyecto)
 
 
-## Installation
+## Installación
 
 Para poder trabajar con el proyecto requieres de [Node.js](https://nodejs.org/) 
 
